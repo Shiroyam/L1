@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  height: 25px;
+  width: 275px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+
+.input--warning {
+  border: 2px solid red;
+}
+
+.input--medium {
+  border: 2px solid orange;
+}
+
+.input--success {
+  border: 2px solid green;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  display: none;
+}
+
+.option {
+  font-size: 20px;
+
+}
