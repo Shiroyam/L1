@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>24</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <button id="pagination-prev"><</button>
+      <span id="pagination-count">1</span>
+      <button id="pagination-next">></button>
+    </div>
+    <table id="table" class="table">
+      <thead>
+        <tr>
+          <th colspan="8">Data</th>
+        </tr>
+        <tr>
+          <td><button id="filter" data-column="city">↑</button></td>
+          <td><button id="filter" data-column="fname">↑</button></td>
+          <td><button id="filter" data-column="lname">↑</button></td>
+          <td><button id="filter" data-column="state">↑</button></td>
+          <td><button id="filter" data-column="tel">↑</button></td>
+          <td><button id="filter" data-column="zip">↑</button></td>
+          <td><button id="filter" data-column="address">↑</button></td>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
